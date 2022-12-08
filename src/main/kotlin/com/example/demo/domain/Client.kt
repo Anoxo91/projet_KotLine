@@ -6,7 +6,7 @@ import javax.persistence.*
 @Table(name = "Client")
 class Client(
 
-    @Column(name = "Gender", unique = true, nullable = false)
+    @Column(name = "Gender", nullable = false)
     var gender: String,
 
     @Column(name = "Title", nullable = false)
